@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Jolie Hurley's personal portfolio for CSCI-A 340">
+    <link rel="stylesheet" href="port_base.css">
+    <link rel="stylesheet" href="port_layout.css">
+    <link rel="stylesheet" href="port_styles.css">
+    <link rel="stylesheet" href="cursor.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="custom-cursor site-wide">
+        <div class="pointer"></div>
+    </div>
+    <button class="audio-controls" onclick="togglePlay()" title="Play/Pause">
+        <p class="hover-message">Play Music or Pause</p>
+        &#9654; <!-- Play icon -->
+    </button>
+
+    <audio id="audio" autoplay loop>
+        <source src="music/ptv.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <h1>Learn from yesterday, live for today, hope for tomorrow <span>════ ⋆★⋆ ════</span></h1>
+        <nav class="toplinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="career.html">COLLEGE</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Head Section -->
+        <section id="head">
+            <h1>About Me</h1>
+            <h2>Based out of Northwest Indiana</h2>
+        </section>
+
+        <!-- Column Layout -->
+        <div class="column-container">
+            <section class="column">
+                <h2>Leave a Drawing</h2>
+                <section id="sketchpad-container">
+                    <div class="toolbar" style="text-align: center; margin: 10px;">
+                        <label for="colorPicker">Color:</label>
+                        <input type="color" id="colorPicker" value="#000000">
+
+                        <label for="brushSize">Brush Size:</label>
+                        <input type="number" id="brushSize" value="5" min="1" max="50" style="pointer: none;">
+
+                        <button id="clearCanvas">Clear</button>
+                    </div>
+                    <canvas id="sketchpad" style="border: 2px solid #333; display: block; margin: 20px auto; background: white; height: 1600; width: 1600;"></canvas>
+                </section>
+                <script src="sketchbook.js"></script>
+            </section>
+
+            <section class="column">
+                <h2>My Interests</h2>
+                <p>I am a full-time student with a passion for art and science. When I am not busy with classes, I am often drawing, playing video games, or watching deep dives on random, niche topics.</p>
+                <p>Recently, I have been enjoying playing League of Legends: Teamfight Tactics as it is a strategic auto-battler. I am currently in Platinum II and hope to continue climbing the ranks before the set ends!</p>
+                <p>Beyond gaming, I love drawing and painting. I have found freelance work creating thumbnails and doing video editing for friends. It has been a great way to make money while doing something I enjoy.</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&#9733; 2024 &#8226; Jolie Hurley &#8226; joehurl@iu.edu &#9733;</p>
+    </footer>
+    <script src="cursor.js"></script>
+    <script src="audio.js"></script>
+</body>
+</html>

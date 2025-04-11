@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Academic Career</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Jolie Hurley's personal portfolio for CSCI-A 340">
+    <link rel="stylesheet" href="port_base.css">
+    <link rel="stylesheet" href="port_layout.css">
+    <link rel="stylesheet" href="port_styles.css">
+    <link rel="stylesheet" href="cursor.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="custom-cursor site-wide">
+        <div class="pointer"></div>
+    </div>
+    <button class="audio-controls" onclick="togglePlay()" title="Play/Pause">
+        <p class="hover-message">Play Music or Pause</p>
+        &#9654; <!-- Play icon -->
+    </button>
+
+    <audio id="audio" autoplay loop>
+        <source src="music/d4vd.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <h1>Learn from yesterday, live for today, hope for tomorrow ════ ⋆★⋆ ════</h1>
+        <nav class="toplinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="career.html">COLLEGE</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Head Section -->
+        <section id="head">
+            <h1>Academic Career</h1>
+            <h2>Bachelor of Science in Computer Information Systems</h2>
+            <h2>Minor in Mathematics</h2>
+        </section>
+
+        <!-- Column Layout -->
+        <div class="column-container">
+            <section class="column">
+                <h2>Extracurricular Activities</h2>
+                <h3>IUN STEM Center</h3>
+                <ul>
+                    <li>Peer Tutor for: A106, A285, A348, A201, PSY-K 300</li>
+                    <li>Participated in outreach programs such as: Lake Station Lunch & Learn</li>
+                </ul>
+				<div class="internal-link">
+					<p class="hover-message">Click for some examples of work I have done in college</p>
+					<a href="https://joehurl.pages.iu.edu/340/examples.html">
+					<img src="pic/arrow.png" alt="Example Folder">
+					</a>
+				</div>
+            </section>
+
+            <section class="column">
+                <h2>Internships</h2>
+                <h3>Indiana University Northwest UITS</h3>
+                <ul>
+                    <li>Spring 2025</li>
+                    <li>Major projects include: diagnosing network issues, correcting network issues, and expanding cell phone coverage on campus</li>
+                </ul>
+                <h3>NiSource</h3>
+                <ul>
+                    <li>Summer 2025 Program</li>
+                </ul>
+            </section>
+
+            <section class="column">
+                <h2>Future Plans</h2>
+                <p>I am excited to pursue a Master’s degree in Electrical and Computer Engineering at Purdue University Northwest to further build upon the skill set I developed during undergraduate studies. PNW's commitment to innovation, hands-on research opportunities, and experienced faculty make it the ideal environment to begin my journey into the hands-on side of electrical and computer systems.</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&#9733; 2024 &#8226; Jolie Hurley &#8226; joehurl@iu.edu &#9733;</p>
+    </footer>
+    <script src="cursor.js"></script>
+    <script src="audio.js"></script>
+</body>
+</html>
