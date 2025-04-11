@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+html {
+    background-color: rgb(251,246,240);
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255,224,178);
+    margin: 0px auto;
+	width: 90%;
+	max-width: 1600px;
+	min-width: 720px;
+}
