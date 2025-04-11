@@ -48,6 +48,26 @@ nav li {
     padding: 0;
 }
 
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#left {
+    font-size: 1.5em;
+    line-height: 1.7em;
+    text-align: center;
+    width: 95%;
+    border-radius: 5px; 
+}
+
 footer {
     background-color: rgb(255,194,113);
     border-top: 4px solid #33384a;
