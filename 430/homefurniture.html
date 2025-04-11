@@ -14,14 +14,89 @@
         <ul>
 			<li><a href="index.html">Home</a></li>
             <li><a href="homefurniture.html">Home Decor</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
 		</ul>
-	<nav>
+	</nav>
 
 	<!-- Use the main area to add the main content to the webpage -->
 	<main>
-		<p> order page </p>
+		<!-- Main Order Form Content -->
+        <main>
+            <h2>Order Furniture</h2>
+            <form id="orderForm">
+              <table>
+                <tr>
+                  <th>Item</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                </tr>
+                <tbody id="furnitureTable"></tbody>
+              </table>
+              <br>
+              <input type="submit" value="Place Order">
+            </form>
+        
+            <div id="orderSummary" style="margin-top: 20px;"></div>
+          </main>
+        
+          <footer>
+            <p>Jolie Hurley</p>
+            <p>2025</p>
+          </footer>
+        
+          <script>
+            const items = {
+              "Sofa": 450,
+              "Dining Table": 600,
+              "Bed Frame": 550,
+              "Bookshelf": 120,
+              "Desk": 200,
+              "TV Stand": 180,
+              "Coffee Table": 130,
+              "Armchair": 250,
+              "Wardrobe": 400,
+              "Nightstand": 80
+            };
+        
+            const table = document.getElementById("furnitureTable");
+            for (const [name, price] of Object.entries(items)) {
+              const row = document.createElement("tr");
+              row.innerHTML = `
+                <td>${name}</td>
+                <td>$${price}</td>
+                <td><input type="number" name="${name}" min="0" value="0"></td>
+              `;
+              table.appendChild(row);
+            }
+        
+            document.getElementById("orderForm").addEventListener("submit", function (e) {
+              e.preventDefault();
+              let total = 0;
+              let summary = "<h3>Your Order Summary:</h3><ul>";
+              const formData = new FormData(e.target);
+        
+              for (const [item, price] of Object.entries(items)) {
+                const qty = parseInt(formData.get(item)) || 0;
+                if (qty > 0) {
+                  const itemTotal = price * qty;
+                  total += itemTotal;
+                  summary += `<li>${qty} x ${item} at $${price} = $${itemTotal}</li>`;
+                }
+              }
+        
+              summary += "</ul>";
+              summary += `<h4>Total Price: $${total}</h4>`;
+              if (total === 0) {
+                summary = "<p><strong>No items ordered.</strong></p>";
+              }
+        
+              document.getElementById("orderSummary").innerHTML = summary;
+            });
+          </script>
 	</main>
 	
+    
+
 	<footer>
         <p> Jolie Hurley</p>
         <p>2025</p>
