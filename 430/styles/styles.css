@@ -30,6 +30,10 @@ nav ul {
     text-align: center;
 }
 
+nav li {
+    text-align: center;
+}
+
 footer {
     background-color: rgb(255,194,113);
     border-top: 4px solid #33384a;
