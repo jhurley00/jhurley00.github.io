@@ -1,0 +1,18 @@
+const audio = document.getElementById('audio');
+const volumeSlider = document.getElementById('volume-slider');
+
+function togglePlay() {
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
+
+function muteAudio() {
+    audio.muted = !audio.muted;
+}
+
+function setVolume(value) {
+    audio.volume = value;
+}
