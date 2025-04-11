@@ -13,3 +13,18 @@ body {
 	max-width: 1600px;
 	min-width: 720px;
 }
+
+header {
+	background-color: rgb(255,224,178);
+	height: 125px;
+	position: relative;
+	border-bottom: 4px solid #33384a;
+	display: flex;
+    align-items: center;
+    text-align: center;
+	margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
