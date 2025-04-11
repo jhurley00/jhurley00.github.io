@@ -40,6 +40,6 @@ const items = {
     }
   
     localStorage.setItem("furniOrder", JSON.stringify(order));
-    window.location.href = "checkout.html";
+    window.location.href = "checkout.html"; 
   });
   
