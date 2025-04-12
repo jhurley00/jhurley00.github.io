@@ -50,6 +50,13 @@ nav li {
 plants {
     margin-top: 20px;
 }
+
+plants h1 {
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
