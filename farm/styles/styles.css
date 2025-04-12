@@ -47,7 +47,9 @@ nav li {
 	margin: 0;
     padding: 0;
 }
-
+plants {
+    margin-top: 20px;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
