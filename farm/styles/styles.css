@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 html {
-    background-color: rgb(251,246,240);
+    background-color: rgb(229,227,220);
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: rgb(255,224,178);
+    background-color: rgb(158,173,133);
     margin: 0px auto;
 	width: 90%;
 	max-width: 1600px;
@@ -15,10 +15,10 @@ body {
 }
 
 header {
-	background-color: rgb(255,194,113);
+	background-color: rgb(88,129,87);
 	height: 125px;
 	position: relative;
-	border-bottom: 4px solid #33384a;
+	border-bottom: 4px solid rgb(57,86,72);
 	display: flex;
     align-items: center;
     text-align: center;
@@ -69,7 +69,7 @@ nav li {
 }
 
 footer {
-    background-color: rgb(255,194,113);
-    border-top: 4px solid #33384a;
+    background-color: rgb(158,173,133);
+    border-top: 4px solid rgb(57,86,72);
     
 }
