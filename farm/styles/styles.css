@@ -47,11 +47,11 @@ nav li {
 	margin: 0;
     padding: 0;
 }
-plants {
+#plants {
     margin-top: 20px;
 }
 
-plants h1 {
+#plants h1 {
     margin: 20px;
     padding: 10px;
     font-size: 1.2em;
@@ -77,5 +77,5 @@ footer {
     background-color: rgb(88,129,87);
     border-top: 4px solid rgb(57,86,72);
     text-align: right;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
