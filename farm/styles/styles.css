@@ -55,7 +55,7 @@ plants h1 {
     margin: 20px;
     padding: 10px;
     font-size: 1.2em;
-    
+
 }
 .grid-container {
     display: grid;
@@ -76,4 +76,6 @@ plants h1 {
 footer {
     background-color: rgb(88,129,87);
     border-top: 4px solid rgb(57,86,72);
+    text-align: right;
+    padding-bottom: 30px;
 }
