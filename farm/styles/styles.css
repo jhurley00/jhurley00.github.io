@@ -53,8 +53,7 @@ nav li {
 
 #plants h1 {
     margin: 20px;
-    padding: 10px;
-    font-size: 1.4em;
+    font-size: 1.6em;
 
 }
 .grid-container {
@@ -77,5 +76,5 @@ footer {
     background-color: rgb(88,129,87);
     border-top: 4px solid rgb(57,86,72);
     text-align: right;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
