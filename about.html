@@ -15,9 +15,11 @@
 </head>
 
 <body>
+    
     <div class="custom-cursor site-wide">
         <div class="pointer"></div>
     </div>
+
     <button class="audio-controls" onclick="togglePlay()" title="Play/Pause">
         <p class="hover-message">Play Music or Pause</p>
         &#9654; <!-- Play icon -->
@@ -26,6 +28,11 @@
     <audio id="audio" autoplay loop>
         <source src="music/ptv.mp3" type="audio/mpeg">
     </audio>
+
+    <div id="audio-controls">
+        <label for="volume-slider">Volume: </label>
+        <input type="range" id="volume-slider" min="0" max="100" step="1" onchange="setVolume(this.value / 100)">
+    </div>
 
     <header>
         <h1>Learn from yesterday, live for today, hope for tomorrow <span>════ ⋆★⋆ ════</span></h1>
@@ -68,17 +75,17 @@
             </section>
 
             <section class="column">
-                <h2>My Interests</h2>
-                <p>I am a full-time student with a passion for art and science. When I am not busy with classes, I am often drawing, playing video games, or watching deep dives on random, niche topics.</p>
-                <p>Recently, I have been enjoying playing League of Legends: Teamfight Tactics as it is a strategic auto-battler. I am currently in Platinum II and hope to continue climbing the ranks before the set ends!</p>
-                <p>Beyond gaming, I love drawing and painting. I have found freelance work creating thumbnails and doing video editing for friends. It has been a great way to make money while doing something I enjoy.</p>
+                <h2>Meet the Programmer</h2>
+                <p>I am a full-time student with a passion for art and science. I love creating things that are not only functional, but also nice on the eye.</p>
+                <p>When I am not hunched over my desk writing code, I enjoy drawing, gardening, and reconnecting with the outdoors.</p>
+                <p>I am always eager to learn new things and expand upon my skills. My journey as a student has taught me that I can solve problems not only technically, but also creatively!</p>
             </section>
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&#9733; 2024 &#8226; Jolie Hurley &#8226; joehurl@iu.edu &#9733;</p>
+        <p>&#9733; 2024 &#8226; Jolie Hurley &#8226; joliehurley@gmail.com &#9733;</p>
     </footer>
     <script src="cursor.js"></script>
     <script src="audio.js"></script>

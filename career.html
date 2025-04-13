@@ -18,6 +18,7 @@
     <div class="custom-cursor site-wide">
         <div class="pointer"></div>
     </div>
+
     <button class="audio-controls" onclick="togglePlay()" title="Play/Pause">
         <p class="hover-message">Play Music or Pause</p>
         &#9654; <!-- Play icon -->
@@ -26,6 +27,11 @@
     <audio id="audio" autoplay loop>
         <source src="music/d4vd.mp3" type="audio/mpeg">
     </audio>
+
+    <div id="audio-controls">
+        <label for="volume-slider">Volume: </label>
+        <input type="range" id="volume-slider" min="0" max="100" step="1" onchange="setVolume(this.value / 100)">
+    </div>
 
     <header>
         <h1>Learn from yesterday, live for today, hope for tomorrow ════ ⋆★⋆ ════</h1>
@@ -88,7 +94,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&#9733; 2024 &#8226; Jolie Hurley &#8226; joehurl@iu.edu &#9733;</p>
+        <p>&#9733; 2024 &#8226; Jolie Hurley &#8226; joliehurley@gmail.com &#9733;</p>
     </footer>
     <script src="cursor.js"></script>
     <script src="audio.js"></script>
