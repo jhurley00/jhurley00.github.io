@@ -25,6 +25,12 @@ header {
 	margin-top: 10px;
 }
 
+header h1 {
+    font-size: 1.8em;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+
 nav {
 	float: right;
 	width: 40%;
