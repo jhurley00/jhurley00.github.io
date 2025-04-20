@@ -67,8 +67,8 @@ li a:hover {
 }
 
 #couch img {
-    padding-left: 75px;
-    width: 50%;
+    padding-left: 125px;
+    width: 30%;
     height: auto;
 }
 
@@ -90,7 +90,6 @@ li a:hover {
     text-align: center;
     width: 95%;
     padding-top: 10px;
-    padding-left: 100px;
 }
 
 #checkoutSummary li {
