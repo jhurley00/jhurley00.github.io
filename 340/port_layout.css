@@ -1,0 +1,40 @@
+/* General Layout */
+main {
+    display: flex;
+    flex-direction: column; /* Stack head section on top */
+    gap: 20px; /* Spacing between head and columns */
+}
+
+/* Head Section (Full-Width) */
+section#head {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Responsive Column Container Fix */
+.column-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure content wraps */
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%; /* Prevent overflow beyond parent */
+    margin: 20px auto; /* Center the container */
+    padding: 0 10px; /* Add safe padding */
+    box-sizing: border-box;
+}
+
+/* Ensure Columns Stay Responsive */
+section.column {
+    flex: 1 1 calc(50% - 20px); /* Two columns with spacing */
+    min-width: 300px;
+    max-width: 100%; /* Prevent columns from overflowing */
+    background-color: rgba(135, 150, 204, 0.7);
+    border: 2px solid rgb(135, 150, 204);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+

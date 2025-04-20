@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*
+	tab mob viewport
+	Jolie Hurley
+	A340
+	9/22/2024
+	
+	1105 CUT OFF BEFORE THE NAV BAR STARTS SQUISHING
+*/
+
+/* HTML + Body Styles */
+.mobile a, .mobile a.menuicon, #menu-links {
+	display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+	/*hamburger */
+	#menu-links, span {
+		display: none;
+	}
+	.toplinks {
+		display: none;
+	}
+	.mobile a {
+		color: black;
+		text-align: center;
+		font-size: 2em;
+		text-decoration: none;
+		padding: 3%;
+		display: block;
+	}
+	.mobile a.menu-icon {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.menu-icon div {
+		height: 50px;
+		width: 50px;
+	}
+}
+	
+	
