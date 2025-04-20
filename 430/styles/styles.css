@@ -39,14 +39,13 @@ nav ul {
 
 nav li {
 	float: left;
-    padding-left: 350px;
 }
 
 li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -58,9 +57,11 @@ li a:hover {
 #intro p {
     font-size: 2em;
 }
+
 #couch {
     padding-left: 75px;
 }
+
 .column {
     display: flex;
     flex-wrap: wrap;
