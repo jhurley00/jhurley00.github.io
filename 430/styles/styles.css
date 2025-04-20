@@ -25,6 +25,11 @@ header {
 	margin-top: 10px;
 }
 
+header h1 {
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
 nav {
 	float: right;
 	width: 40%;
@@ -68,8 +73,13 @@ nav li {
     border-radius: 5px; 
 }
 
+#checkoutSummary li {
+    list-style-type: none;
+}
+
 footer {
     background-color: rgb(255,194,113);
     border-top: 4px solid #33384a;
+    text-align: center;
     
 }
