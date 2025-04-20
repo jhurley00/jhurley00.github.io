@@ -51,11 +51,12 @@ li a {
 
 li a:hover {
     background-color: #33160a5e;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 #intro p {
     font-size: 2em;
+    padding-top: 10px;
 }
 
 #couch {
@@ -79,7 +80,7 @@ li a:hover {
     line-height: 1.7em;
     text-align: center;
     width: 95%;
-    border-radius: 5px; 
+    padding-top: 10px;
 }
 
 #checkoutSummary li {
