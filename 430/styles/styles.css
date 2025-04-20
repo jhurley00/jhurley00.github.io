@@ -38,7 +38,8 @@ nav ul {
 }
 
 nav li {
-	float: right;
+	float: left;
+    padding-left: 350px;
 }
 
 li a {
