@@ -52,6 +52,7 @@ li a {
 
 li a:hover {
     background-color: #33160a5e;
+    letter-spacing: 1px;
 }
 
 #intro p {
