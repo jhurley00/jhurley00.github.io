@@ -12,6 +12,7 @@ body {
 	width: 90%;
 	max-width: 1600px;
 	min-width: 720px;
+    margin-left: 220px;
 }
 
 header {
@@ -30,15 +31,19 @@ header h1 {
     letter-spacing: 2px;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
     background-color: #662d15;
+    padding-top: 20px;
 }
 
 nav li {
-	float: left;
+	float: none;
+    width: 100%;
 }
 
 li a {
