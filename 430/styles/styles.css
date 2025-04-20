@@ -56,6 +56,9 @@ li a:hover {
 #intro p {
     font-size: 2em;
 }
+#couch {
+    padding-left: 75 px;
+}
 .column {
     display: flex;
     flex-wrap: wrap;
