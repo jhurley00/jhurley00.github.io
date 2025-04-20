@@ -10,7 +10,7 @@ body {
     background-color: rgb(255,224,178);
     margin: 0px auto;
 	width: 90%;
-	max-width: 1400px;
+	max-width: 1300px;
 	min-width: 720px;
     margin-left: 220px;
 }
@@ -68,7 +68,7 @@ li a:hover {
 
 #couch img {
     padding-left: 75px;
-    width: 75%;
+    width: 50%;
     height: auto;
 }
 
