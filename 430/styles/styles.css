@@ -30,27 +30,27 @@ header h1 {
     letter-spacing: 2px;
 }
 
-nav {
-	float: right;
-	width: 40%;
-}
-
 nav ul {
-    gap: 20px;
     margin: 0;
-    padding: 10px 0;
+    padding: 0;
     list-style: none;
+    background-color: #662d15;
 }
 
 nav li {
-	font-family: "Open Sans", sans-serif;
-	text-decoration: none;
-	font-size: 1.1em;
 	float: left;
-	width: 20%;
-	text-align: center;
-	margin: 0;
-    padding: 0;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #33160a;
 }
 
 #intro p {
