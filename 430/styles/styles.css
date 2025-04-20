@@ -10,7 +10,7 @@ body {
     background-color: rgb(255,224,178);
     margin: 0px auto;
 	width: 90%;
-	max-width: 1600px;
+	max-width: 1200px;
 	min-width: 720px;
     margin-left: 220px;
 }
@@ -37,13 +37,14 @@ nav {
     left: 0;
     height: 100%;
     width: 200px;
-    background-color: #662d15;
+    background-color: #662d1570;
     padding-top: 20px;
 }
 
 nav li {
 	float: none;
     width: 100%;
+    text-decoration: none;
 }
 
 li a {
