@@ -17,7 +17,7 @@ body {
 
 header {
 	background-color: rgb(255,194,113);
-	height: 125px;
+	height: 110px;
 	position: relative;
 	border-bottom: 4px solid #33384a;
 	display: flex;
