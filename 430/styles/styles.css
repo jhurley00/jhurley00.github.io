@@ -53,6 +53,9 @@ nav li {
     padding: 0;
 }
 
+#intro p {
+    font-size: 2em;
+}
 .column {
     display: flex;
     flex-wrap: wrap;
@@ -78,8 +81,10 @@ nav li {
 }
 
 #checkoutSummary h3{
-    padding: 30px;
+    padding-left: 35px;
 }
+
+
 footer {
     background-color: rgb(255,194,113);
     border-top: 4px solid #33384a;
